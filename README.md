@@ -7,7 +7,7 @@ Program ini cocok untuk pelajar atau pemula yang sedang belajar Python, khususny
 
 ---
 
-✨ Fitur
+#✨ Fitur
 
 📏 Menghitung nilai IMT berdasarkan tinggi & berat badan
 
@@ -62,20 +62,6 @@ Nilai IMT	Kategori
 
 
 Tabel ini memudahkan pengguna memahami hasil penghitungan program.
-
-
----
-
-#💻 Contoh Hasil Output
-
-Jika IMT rendah → “Tubuh anda kurus”
-
-Jika IMT normal → “Tubuh anda normal”
-
-Jika IMT di atas 30 → “Tubuh anda obesitas”
-
-
-Hasil yang muncul akan menyesuaikan angka IMT pengguna.
 
 
 ---
