@@ -1,84 +1,112 @@
-Indeks Massa Tubuh Remaja (IMT) – Python
+#🧮 Indeks Massa Tubuh Remaja (Python)
 
-Proyek ini berisi program sederhana menggunakan Python untuk menghitung Indeks Massa Tubuh (IMT) pada remaja. IMT digunakan untuk mengetahui apakah berat badan seseorang sudah ideal berdasarkan tinggi dan berat badannya.
+Program sederhana ini dibuat untuk membantu menghitung Indeks Massa Tubuh (IMT) remaja berdasarkan tinggi dan berat badan. IMT berguna untuk mengetahui apakah kondisi tubuh berada dalam kategori kurus, normal, berlebih, atau obesitas.
 
-📌 Fungsi Program
-
-Program ini dibuat untuk:
-
-Menerima input tinggi badan (dalam meter)
-
-Menerima input berat badan (dalam kilogram)
-
-Menghitung nilai IMT dengan rumus tinggi dan berat badan
-
-Menampilkan kategori tubuh berdasarkan nilai IMT pengguna
+Program ini cocok untuk pelajar atau pemula yang sedang belajar Python, khususnya konsep input, perhitungan, dan percabangan logika.
 
 
-📊 Kategori IMT yang Digunakan
+---
 
-Program ini menggunakan kategori standar IMT:
+✨ Fitur
 
-IMT < 18.5 → Tubuh kurus
+📏 Menghitung nilai IMT berdasarkan tinggi & berat badan
 
-18.5 ≤ IMT < 25 → Tubuh normal
+📊 Mengelompokkan IMT ke dalam kategori tubuh
 
-25 ≤ IMT < 30 → Berat badan berlebih
+🧠 Mudah dipahami & cocok untuk pemula
 
-30 ≤ IMT < 35 → Obesitas
+📝 Menampilkan hasil penilaian dalam bentuk kalimat sederhana
 
-≥ 35 → Obesitas tingkat tinggi
-
-
-Kategori ini membantu pengguna memahami kondisi tubuhnya secara umum.
-
-▶️ Cara Menggunakan Program
-
-1. Jalankan file Python menggunakan terminal.
-
-
-2. Masukkan tinggi badan dalam meter.
-
-
-3. Masukkan berat badan dalam kilogram.
-
-
-4. Program akan menampilkan nilai IMT dan kategorinya.
+🔍 Menggunakan logika percabangan untuk menentukan kategori IMT
 
 
 
-📘 Contoh Hasil
+---
 
-IMT di bawah 18.5 → “Tubuh anda kurus”
+#🧠 Cara Kerja Program
 
-IMT sekitar 20 → “Tubuh anda normal”
+Program akan menanyakan dua data:
 
-IMT di atas 30 → “Tubuh anda obesitas”
-
-
-Output dapat berbeda sesuai data yang dimasukkan pengguna.
-
-🎯 Tujuan Proyek
-
-Proyek ini dibuat untuk membantu pemula mempelajari:
-
-Cara menerima input dari pengguna
-
-Cara melakukan perhitungan matematis
-
-Dasar penggunaan percabangan if, elif, dan else
-
-Logika pemrograman dengan contoh nyata
+1. Tinggi badan dalam meter
 
 
-💡 Pengembangan Selanjutnya
+2. Berat badan dalam kilogram
 
-Fitur tambahan yang bisa ditambahkan:
 
-Validasi input agar tidak error
 
-Output lebih detail (misalnya saran kesehatan)
+Setelah itu, program menghitung nilai IMT menggunakan rumus tinggi & berat badan, lalu menentukan kategori tubuh berdasarkan hasil tersebut.
 
-Tampilan GUI menggunakan Tkinter
+Untuk pemula, proyek ini membantu memahami:
 
-Versi berbasis web dengan Flask atau Django
+Cara menerima input pengguna
+
+Bagaimana Python melakukan perhitungan matematika
+
+Penggunaan percabangan if, elif, dan else
+
+Logika dasar dalam pemrograman praktis
+
+
+
+---
+
+#📊 Kategori IMT
+
+Nilai IMT	Kategori
+
+< 18.5	Kurus
+18.5 – 24.9	Normal
+25 – 29.9	Berlebih
+30 – 34.9	Obesitas
+≥ 35	Obesitas Tingkat Tinggi
+
+
+Tabel ini memudahkan pengguna memahami hasil penghitungan program.
+
+
+---
+
+#💻 Contoh Hasil Output
+
+Jika IMT rendah → “Tubuh anda kurus”
+
+Jika IMT normal → “Tubuh anda normal”
+
+Jika IMT di atas 30 → “Tubuh anda obesitas”
+
+
+Hasil yang muncul akan menyesuaikan angka IMT pengguna.
+
+
+---
+
+#🎯 Tujuan Proyek
+
+Proyek ini dibuat untuk:
+
+Membantu pelajar memahami Python dasar
+
+Belajar menerima input dan menampilkan hasil
+
+Mengasah logika pemrograman melalui kondisi IMT
+
+Menunjukkan contoh kecil penggunaan Python dalam kehidupan nyata
+
+
+
+---
+
+#🚀 Ide Pengembangan Berikutnya
+
+Jika ingin lebih lengkap, kamu bisa menambahkan:
+
+✔️ Validasi input (misalnya: tidak boleh huruf)
+
+✔️ Menampilkan IMT dengan dua angka desimal
+
+✔️ Menambahkan rekomendasi kesehatan
+
+✔️ Membuat versi GUI dengan Tkinter
+
+✔️ Membuat versi web menggunakan Flask/Django
+
